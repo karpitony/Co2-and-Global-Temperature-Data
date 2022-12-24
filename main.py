@@ -5,11 +5,8 @@ import csv
 
 
 """csv files to dictionary"""
-def read_csv() -> dict:
-    e = open('./asset/annual-co2-emissions-per-country.csv', 'r')
-    csv_to_dicttionary = csv.DictReader(e)
-    
-    return csv_to_dicttionary
+e = open('./asset/annual-co2-emissions-per-country.csv', 'r')
+data = csv.DictReader(e)
 
 
 """Make Year and Annual CO2 emissions List"""
@@ -17,11 +14,8 @@ years = list(range(1750, 2022))
 co2 = [0]*len(years)
 
 
-for g in range(0,272,1):
-    data = read_csv()
-    for row in data:
-        if int(row.get('Year', 0)) == years[g]:
-            co2[g] += float(row.get('Annual CO2 emissions', 0))
+for row in data:
+    co2[int(row.get('Year'))-years[0]] += float(row.get('Annual CO2 emissions', 0))
 
 
 """Plot"""
