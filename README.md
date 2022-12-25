@@ -1,11 +1,18 @@
-# Co2 Emissions Data
-This repository is a python code that visualizes `co2 emissions` as a graph from 1750 to 2021.
+# Co2 and Global Temperature Data
+1.[About](#about)
+2.[Requirements](#requirements)
+3.[Licens](#licens)
+4.[Source](#source)
+
+## About
+This repository is a python code that visualizes `co2 emissions` as a graph from 1750 to 2021 and `global temperature` as a graph from 1850 to 2019.
 
 ## Requirements
 ```
 matplotlib
 pandas
 ```
+
 ## Licens
 ```
 MIT License
@@ -30,7 +37,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
 ## Source
 ```
-CO2 emissions data (https://ourworldindata.org/co2-emissions)
+CO2 emissions data:
+Hannah Ritchie and Max Roser, "CO2 emissions", Our World in Data, https://ourworldindata.org/co2-emissions
+
+Global temperature data:
+"Average temperature anomaly", Our World in Data, https://ourworldindata.org/grapher/temperature-anomaly
 ```
