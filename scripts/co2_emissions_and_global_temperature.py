@@ -37,14 +37,14 @@ ax1 = fig.add_subplot()
 color1 = 'b'
 ax1.plot(years1, co2, color=color1)
 ax1.set_xlabel('Year')
-ax1.set_ylabel('Annual CO2 emissions (billion t)', color=color1)
+ax1.set_ylabel('Annual CO2 Emissions (billion t)', color=color1)
 ax1.tick_params(axis='y', labelcolor=color1)
 
 """global temperuature plot - red"""
 color2 = 'r'
 ax2 = ax1.twinx()
 ax2.plot(years2, temperature, color=color2)
-ax2.set_ylabel('Global Temperature', color=color2)
+ax2.set_ylabel('Median Average Temperature Change', color=color2)
 ax2.tick_params(axis='y', labelcolor=color2)
 plt.gca().yaxis.set_major_formatter(mticker.FormatStrFormatter('%i ℃'))
 plt.show()

@@ -23,7 +23,7 @@ ax2 = fig.add_subplot()
 """global temperuature plot - red"""
 color2 = 'r'
 ax2.plot(years2, temperature, color=color2)
-ax2.set_ylabel('Global Temperature', color=color2)
+ax2.set_ylabel('Median average Temperature Change', color=color2)
 ax2.tick_params(axis='y', labelcolor=color2)
 plt.gca().yaxis.set_major_formatter(mticker.FormatStrFormatter('%i ℃'))
 plt.show()

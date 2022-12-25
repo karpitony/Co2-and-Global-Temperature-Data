@@ -15,7 +15,7 @@ co2 = [0]*len(years1)
 
 
 for row in data:
-    co2[int(row.get('Year'))-years1[0]] += float(row.get('Annual CO2 emissions', 0))
+    co2[int(row.get('Year'))-years1[0]] += float(row.get('Annual CO2 Emissions', 0))
 
 
 """Plot"""
@@ -27,7 +27,7 @@ ax1 = fig.add_subplot()
 color1 = 'b'
 ax1.plot(years1, co2, color=color1)
 ax1.set_xlabel('Year')
-ax1.set_ylabel('Annual CO2 emissions (billion t)', color=color1)
+ax1.set_ylabel('Annual CO2 Emissions (billion t)', color=color1)
 ax1.tick_params(axis='y', labelcolor=color1)
 
 plt.show()
