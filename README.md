@@ -1,17 +1,15 @@
 # Co2 and Global Temperature Data
-1.[About](#about)
-2.[Requirements](#requirements)
-3.[Licens](#licens)
-4.[Source](#source)
+[1. About](#about)<br>
+[2. Requirements](#requirements)<br>
+[3. Licens](#licens)<br>
+[4. Source](#source)<br>
 
 ## About
 This repository is a python code that visualizes `co2 emissions` as a graph from 1750 to 2021 and `global temperature` as a graph from 1850 to 2019.
 
 ## Requirements
-```
-matplotlib
-pandas
-```
+- matplotlib
+- pandas
 
 ## Licens
 ```
