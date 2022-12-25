@@ -1,6 +1,8 @@
 # Co2 and Global Temperature Data
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=round)](https://github.com/yuyuyunseok/Co2-and-Global-temperature-Data/issues)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyuyuyunseok%2FCo2-and-Global-temperature-Data&count_bg=%23000000&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![GitHub License](https://img.shields.io/github/license/yuyuyunseok/Co2-and-Global-temperature-Data)](./LICENSE)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 - [About](#about)<br>
 - [Requirements](#requirements)<br>
