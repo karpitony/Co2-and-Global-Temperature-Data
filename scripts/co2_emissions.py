@@ -6,16 +6,16 @@ import csv
 
 """csv files to dictionary"""
 e = open('./asset/annual-co2-emissions-per-country.csv', 'r')
-data = csv.DictReader(e)
+co2_data = csv.DictReader(e)
+
 
 
 """Make Year and Annual CO2 emissions List"""
 years1 = list(range(1750, 2022))
 co2 = [0]*len(years1)
 
-
-for row in data:
-    co2[int(row.get('Year'))-years1[0]] += float(row.get('Annual CO2 Emissions', 0))
+for row in co2_data:
+    co2[int(row.get('Year'))-years1[0]] += float(row.get('Annual CO2 emissions', 0))
 
 
 """Plot"""
