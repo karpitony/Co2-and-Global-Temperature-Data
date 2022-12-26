@@ -10,11 +10,17 @@
 - [Source](#source)<br>
 
 ## About
-This repository is a python code that visualizes `co2 emissions` as a graph from 1750 to 2021 and `Median average Temperature Change` as a graph from 1850 to 2019.
+This repository is a python code that visualizes `co2 emissions` as a graph from 1750 to 2021 and `Median average Temperature Change` as a graph from 1850 to 2019.<br><br>
+
+Co2 Emissions Plot|Global Temperature Plot|Co2 and Global Temperature Plot
+---|---|---
+![co2](img/co2_emissions.png)|![temperature](img/global_temperature.png)|![co2+temperature](img/co2_emissions_and_global_temperature.png)
+
 
 ## Requirements
 - matplotlib
 - pandas
+
 
 ## Licens
 ```
@@ -40,6 +46,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
 
 ## Source
 ```
