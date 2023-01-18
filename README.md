@@ -11,15 +11,15 @@
 
 
 ## About
-This repository is a python code that visualizes `CO2 emissions` as a graph from 1750 to 2021 and `Median average Temperature Change` as a graph from 1850 to 2019.<br>
+This repository is a python code that visualizes `CO2 emissions` as a graph from 1750 to 2021 and `Median average Temperature Change` as a graph from 1850 to 2019. I created this python code to visualize the relationship between CO2 emissions and global temperature change.<br><br>
 
-I created this program to find out the relationship between CO2 emissions and global temperature change.<br>
-
-CO2 Emissions Plot|Global Temperature Plot|CO2 and Global Temperature Plot
+CO2 Emissions Plot|Average Global Temperature Plot|CO2 and Global Temperature Plot
 ---|---|---
 ![co2](img/co2_emissions.png)|![temperature](img/global_temperature.png)|![co2+temperature](img/co2_emissions_and_global_temperature.png)
 
-As you can see from the table above, as CO2 emissions increase, the global temperature also rises.<br>
+As you can see from the table above, as CO2 emissions increase, the average global temperature also rises.<br><br>
+
+If you want to try it by yourself, the assets folder contains the data, so just download the repository and you can start playing right away. You can check the source of the data by going to the [Source](#Source) or accessing [ourworldindata.org](ourworldindata.org).<br>
 
 
 ## Requirements
